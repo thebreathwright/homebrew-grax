@@ -11,10 +11,12 @@ class Grax < Formula
     pkgshare.install "model/renderers/grax.go"
   end
 
-  caveats <<~EOS
-    Grax installs model-contract files only.
-    Use them with the brullama CLI and your local model runtime.
-  EOS
+  def caveats
+    <<~EOS
+      Grax installs model-contract files only.
+      Use them with the brullama CLI and your local model runtime.
+    EOS
+  end
 
   test do
     assert_predicate pkgshare/"Modelfile", :exist?
