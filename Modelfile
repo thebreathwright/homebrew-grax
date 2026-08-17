@@ -1,0 +1,3 @@
+FROM ./brullama-grax:8b
+RENDERER brullama-grax-qwen3
+PARSER brullama-grax-qwen3
