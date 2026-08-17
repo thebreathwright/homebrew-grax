@@ -2,7 +2,7 @@ class Grax < Formula
   desc "Grax model/runtime contract and Modelfile assets"
   homepage "https://github.com/ollama/ollama"
   license "MIT"
-  head "https://github.com/ollama/ollama.git", branch: "main"
+  head "https://github.com/thebreathwright/homebrew-grax.git", branch: "main"
 
   def install
     pkgshare.install "Modelfile"
